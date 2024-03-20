@@ -308,10 +308,9 @@ __bufio_close(FILE *f)
 	if (bf->fd > 2)
 		(bf->close)(bf->fd);
 	
-    /* Don't free memory if the stream is stdin/stdout/stderr */
-    if ((f != stdin) && (f != stdout) && (f != stderr))
-        free(f);
+	if ((f != stdin) && (f != stdout) && (f != stderr))
+		free(f);
 
-	return ret;
+    return ret;
 }
 
