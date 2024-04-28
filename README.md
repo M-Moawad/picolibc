@@ -7,7 +7,6 @@ code from [Newlib](http://sourceware.org/newlib/) and
 [AVR Libc](https://www.nongnu.org/avr-libc/).
 
 Build status:
-
  * ![Linux](https://github.com/picolibc/picolibc/workflows/Linux/badge.svg?branch=main)
  * ![Zephyr](https://github.com/picolibc/picolibc/workflows/Zephyr/badge.svg?branch=main)
  * ![Mac OS X](https://github.com/picolibc/picolibc/workflows/Mac%20OS%20X/badge.svg)
